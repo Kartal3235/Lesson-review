@@ -25,6 +25,9 @@ List<Kullanıcı> kişiler =new ArrayList<>();// boş list create edildi.kayıtA
     public void sanslıKullanıcı(List<Kullanıcı>kll){
 
         for (Kullanıcı k:kll) {
+            if(k.kayıtZamanı.getSecond()<10){
+                System.out.println( "sanslı kişisiniz"+k.name+"agam 5 kilo bal kazandım");
+            }else System.out.println("maalesef"+k.name+"balllar balının buldunuz kovanınız yağmalandı");
 
         }
 
