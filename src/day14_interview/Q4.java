@@ -22,7 +22,7 @@ public class Q4 {
 
             if(sayi%i==0){
                 sayac++;
-                System.out.print(i+" ");
+                System.err.print(i+" ");
 
             }
             i++;// çarpanların sayısını arttırmak gerek yoksa döngü dısında assign edilmiş değer ile döngüde sürekli kalır
