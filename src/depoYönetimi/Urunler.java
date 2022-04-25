@@ -3,9 +3,9 @@ package depoYönetimi;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Urunler{
+/*public class Urunler{
 
-    public static Map<Integer,String> urunListesi=new HashMap<>();
+  /*  public static Map<Integer,String> urunListesi=new HashMap<>();
 
     //id urunIsmi uretici miktar birim ve raf
 
@@ -124,3 +124,4 @@ public class Urunler{
                 '}';
     }
 }
+*/
