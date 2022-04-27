@@ -12,7 +12,7 @@ public class Q4 {
         //nüfusların toplamını yazdırın.
         //kaç tane 50 milyondan fazla nüfuslu ülke var?
         // ulke ve nufus  lari hem map gibi..hem de ayri ayri yazdirma ?
-
+        // nufus ve ulke sıralaması
 
         Map<String,Integer> ulke = new HashMap<String,Integer>();
 
@@ -41,5 +41,18 @@ public class Q4 {
             nufus+=toplam;
         }
         System.out.println("nufus toplamı :"+nufus);
+
+        for (Map.Entry<String,Integer>sıralama:ulke.entrySet()) {//entrySet( hem ülkelri hemde nufusu alarak sıralama yapıyor)
+
+            System.out.println(sıralama);
+        }
+        for (String ulkeSırası:ulke.keySet()
+             ) {
+            System.out.println(ulkeSırası);
+        }
+        for (Integer nufusSırası:ulke.values()
+             ) {
+            System.out.println(nufusSırası);
+        }
     }
 }
