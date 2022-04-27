@@ -8,7 +8,7 @@ public class Q2 {
     // find out what are the duplicated values
 
     // 1, 3, 1, 2, 4, 5, 3 sayılarının bir listesini oluşturun --> 2 kopya
-    // kaç tane kopyamız olduğunu sayin
+    // kaç tane tekraralı eleman olduğunu sayin
     // yinelenen değerlerin ne olduğunu öğrenin
     public static void main(String[] args) {
 
