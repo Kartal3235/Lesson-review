@@ -76,6 +76,7 @@ public class Q1 {
     //Fuctional Programming ile list elemanlarının 34 den büyük veya çift olmalarını aynı satırda aralarına boşluk bırakarak print edin
 
     public static void listelOtzBykCft(List<Integer>sayi){
+
         sayi.stream().filter(t->t>34||t%2==0).forEach(Q1::yazdir);
     }
 }
