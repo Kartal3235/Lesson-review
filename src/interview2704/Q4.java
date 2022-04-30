@@ -43,14 +43,14 @@ public class Q4 {
         System.out.println("nufus toplamı :"+nufus);
 
         for (Map.Entry<String,Integer>sıralama:ulke.entrySet()) {//entrySet( hem ülkelri hemde nufusu alarak sıralama yapıyor)
-
+                                                                // entrySet=key + value
             System.out.println(sıralama);
         }
-        for (String ulkeSırası:ulke.keySet()
+        for (String ulkeSırası:ulke.keySet()// sadece key
              ) {
             System.out.println(ulkeSırası);
         }
-        for (Integer nufusSırası:ulke.values()
+        for (Integer nufusSırası:ulke.values()// sadece value
              ) {
             System.out.println(nufusSırası);
         }
